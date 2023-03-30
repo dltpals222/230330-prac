@@ -1,7 +1,7 @@
 import tagMakeCall from "../modules/tagMakeCall.js"
 
 
-const methodGetPost = 'post';
+const methodGetPost = 'get';
 const root = document.getElementById('root')
 const rootChildForm = [
   root,
