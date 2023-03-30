@@ -1,0 +1,20 @@
+{
+  "name": "230330-prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dltpals222/230330-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dltpals222/230330-prac/issues"
+  },
+  "homepage": "https://github.com/dltpals222/230330-prac#readme"
+}
