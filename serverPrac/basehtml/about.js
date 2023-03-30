@@ -47,11 +47,32 @@ for(let i = 0 ; i < 5 ; i++){
   tagMakeCall(prologUsers,'div',function(){})
 }
 
+const inputElementText = [
+  function(element){
+    element.setAttribute('type','text')
+    element.setAttribute('name','name')
+  },
+  function(element){
+    element.setAttribute('type','text')
+    element.setAttribute('name','birth_date')
+  },
+  function(element){
+    element.setAttribute('type','text')
+    element.setAttribute('name','married')
+  },
+  function(element){
+    element.setAttribute('type','text')
+    element.setAttribute('name','comment')
+  },
+  function(element){
+    element.setAttribute('type','text')
+    element.setAttribute('name','nickname')
+  },
+]
+
 for(let i = 0 ; i < 5 ; i++){
   tagMakeCall(prologUsers.children[i],'div',function(){})
-  tagMakeCall(prologUsers.children[i],'input',function(element){
-      element.setAttribute('type','text')
-    }//콜백 끝
+  tagMakeCall(prologUsers.children[i],'input',inputElementText[i]
     )//else tagmakecall 끝
 }
 
