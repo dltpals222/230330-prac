@@ -28,7 +28,7 @@ if(day>9){
   let FDN = `${weeks} week (0${month}-0${day} ~ 0${month}-${day+dayNum-1})/`
   fs.mkdir(preFolderlocation + FDN, error => console.error(error))
   parentFolder = FDN
-  console.log(`(상위폴더) 10일보다 작고 10일보다 큼`)
+  console.log(`(상위폴더) 10일보다 작고 ~ 10일보다 큼`)
 }
 
 
