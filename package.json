@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dltpals222/230330-prac/issues"
   },
-  "homepage": "https://github.com/dltpals222/230330-prac#readme"
+  "homepage": "https://github.com/dltpals222/230330-prac#readme",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
 }
